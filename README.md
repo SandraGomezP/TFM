@@ -31,16 +31,3 @@ El entorno de desarrollo principal ha sido **R (versión 4.4.1)**. Los paquetes 
 * **Deconvolución y Microentorno Tumoral:** `ConsensusTME`, `CIBERSORT`, `estimate`.
 * **Visualización y Reporte:** `pheatmap` (mapas de calor con agrupamiento jerárquico), `ggplot2`, `patchwork`, `flextable`, `officer`.
 * **Análisis Clínico:** `survival` (modelos de curvas de Kaplan-Meier y regresión de Cox).
-
-## 📂 Estructura del Código en este Repositorio
-
-*(Nota: Personaliza esta sección según el nombre real de tus scripts)*
-```text
-├── data/               # Directorio para almacenar matrices de expresión y metadatos clínicos (ignorado en git si es pesado)
-├── src/
-│   ├── 01_download_and_clean.R   # Automatización de descarga desde cBioPortal y conversión a TPM
-│   ├── 02_qc_and_pca.R           # Control de calidad y análisis de componentes principales (PCA)
-│   ├── 03_deconvolution.R        # Ejecución de CIBERSORTx, ConsensusTME y ESTIMATE
-│   ├── 04_clustering.R           # Clustering jerárquico y segmentación de fenotipos
-│   └── 05_survival_analysis.R    # Curvas de Kaplan-Meier y modelos multivariantes de Cox
-└── README.md
